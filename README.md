@@ -40,8 +40,8 @@ YouTube'dan playlist ve video indirmek için gelişmiş bir GUI uygulaması.
      - [ffmpeg](https://ffmpeg.org/download.html) indirip sistem PATH'ine ekleyin
 
 4. **Programı çalıştırın**:
-   - `full_youtube_playlist_insyaller.py` dosyasına çift tıklayın
-   - Veya komut satırından: `python full_youtube_playlist_insyaller.py`
+   - `full_youtube_playlist_installer.py` dosyasına çift tıklayın
+   - Veya komut satırından: `python full_youtube_playlist_installer.py`
 
 ### Linux (Ubuntu/Debian)
 
@@ -54,8 +54,8 @@ sudo apt install python3 python3-tk python3-pip -y
 1. Programı indirin:
 
 ```bash
-git clone [repository-url]
-cd [klasor-adı]
+git clone https://github.com/n4dlr/Youtube-PlayList-Installer
+cd Youtube-PlayList-Installer
 ```
 
 1. Gerekli araçları kurun (program otomatik kurar, manuel için):
@@ -67,13 +67,13 @@ sudo apt install ffmpeg yt-dlp -y
 1. Çalıştırma izinleri verin:
 
 ```bash
-chmod +x full_youtube_playlist_insyaller.py
+chmod +x full_youtube_playlist_installer.py
 ```
 
 1. Programı çalıştırın:
 
 ```bash
-python3 full_youtube_playlist_insyaller.py
+python3 full_youtube_playlist_installer.py
 ```
 
 Diğer Linux Dağıtımları
@@ -136,7 +136,7 @@ Program çöküyor/kapanıyor:
 Dosya Yapısı
 
 ```
-├── full_youtube_playlist_insyaller.py  # Ana program
+├── full_youtube_playlist_installer.py  # Ana program
 ├── ytdownloader_log.txt                # Log dosyası
 ├── yt-dlp (veya yt-dlp.exe)            # Otomatik indirilir
 ├── requirements.txt                     # Python gereksinimleri
